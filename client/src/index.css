@@ -1,9 +1,19 @@
 
-body {
+/* body {
   background-color: #f5f5f5;
   transition: all;
 }
+ */
 
+ .theme-warm {
+  --primary: #FF914D;
+  --accent: #FF6B6B;
+  --bg: #FFF5E1;
+  --text: #333;
+
+  background-color: var(--bg);
+  color: var(--text);
+}
 
 @keyframes upAndDown {
   0%, 100% {

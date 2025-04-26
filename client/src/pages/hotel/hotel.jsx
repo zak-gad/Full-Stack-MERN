@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FaFacebook, FaWhatsapp, FaStar } from "react-icons/fa";
 import { GetHotelsById } from "../../apis/hotels";
@@ -36,7 +36,7 @@ const HotelPage = () => {
   return (
     <div>
           <Nav />
-          <div className="p-6 lg:p-12 min-h-screen  text-black transition-all">
+          <div className="theme-warm">
       {/* Hotel Cover Image */}
       <div className="relative w-full h-[450px] rounded-xl overflow-hidden shadow-lg">
         <img
